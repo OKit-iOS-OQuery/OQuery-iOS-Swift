@@ -1,9 +1,29 @@
 # iQuery
 English</br>
 A jQuery Implementation on iOS platform; </br>
-</br>
+
+1. basic functions
+    1. selector
+        1. Config id
+            1. use id property to store your own id
+        1. Select object
+            1. use $("#id") to select your object
+        1. point to your object for using 
+            1. Because of the implementation of Xcode, you should make a pointer pointing to your object for using; 
+
+            
 中文</br>
 iQuery 是一个jQuery 在 iOS 平台上的实现;</br>
+1. basic functions 基本功能
+    1. selector 选择器
+        1. Config id 配置对象 id
+            1. use id property to mark your object 使用 id 属性来标记你的对象
+        1. Select object
+            1. use $("#id") to select your object 使用$("#id")，来访问对应id 的对象
+        1. point to your object for using 
+            1. Because of the implementation of Xcode, you should make a pointer pointing to your object for using; 由于 OC 本身的限制，使用的时候只能用一个指针指向我们的对象
+
+
 - 1.基本功能
     - 1.1 选择器
         - 1.1.1 基本选择器
