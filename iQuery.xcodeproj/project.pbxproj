@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112FF45D1EE8672C00B1A04A /* 模拟服务器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112FF45C1EE8672C00B1A04A /* 模拟服务器.swift */; };
 		116DEAF51EE8337E000C0383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DEAF41EE8337E000C0383 /* AppDelegate.swift */; };
 		116DEAF71EE8337E000C0383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DEAF61EE8337E000C0383 /* ViewController.swift */; };
 		116DEAFA1EE8337E000C0383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116DEAF81EE8337E000C0383 /* Main.storyboard */; };
 		116DEAFC1EE8337E000C0383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116DEAFB1EE8337E000C0383 /* Assets.xcassets */; };
 		116DEAFF1EE8337E000C0383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116DEAFD1EE8337E000C0383 /* LaunchScreen.storyboard */; };
-		116DEB081EE8341E000C0383 /* IQuery_AddId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DEB061EE83396000C0383 /* IQuery_AddId.swift */; };
-		116DEB0A1EE834A4000C0383 /* IQuery_AddAttr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DEB091EE834A4000C0383 /* IQuery_AddAttr.swift */; };
-		116DEB0C1EE83995000C0383 /* iQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DEB0B1EE83995000C0383 /* iQueryManager.swift */; };
-		116DEB0E1EE83A35000C0383 /* iQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DEB0D1EE83A35000C0383 /* iQuery.swift */; };
+		11702A591EE845840044B9C1 /* iQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11702A541EE845840044B9C1 /* iQueryManager.swift */; };
+		11702A5A1EE845840044B9C1 /* IQuery_AddAttr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11702A561EE845840044B9C1 /* IQuery_AddAttr.swift */; };
+		11702A5B1EE845840044B9C1 /* IQuery_AddId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11702A571EE845840044B9C1 /* IQuery_AddId.swift */; };
+		11702A5C1EE845840044B9C1 /* iQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11702A581EE845840044B9C1 /* iQuery.swift */; };
+		11D29B4E1EE84D5A00E07449 /* 登录.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D29B4D1EE84D5A00E07449 /* 登录.swift */; };
+		11D29B501EE84F2900E07449 /* 注册.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D29B4F1EE84F2900E07449 /* 注册.swift */; };
+		11F0EC381EE884B1000059CE /* 找回密码.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0EC371EE884B1000059CE /* 找回密码.swift */; };
+		11F0EC3A1EE888D0000059CE /* 找回密码控制.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0EC391EE888D0000059CE /* 找回密码控制.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		112FF45C1EE8672C00B1A04A /* 模拟服务器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "模拟服务器.swift"; sourceTree = "<group>"; };
 		116DEAF11EE8337E000C0383 /* iQuery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116DEAF41EE8337E000C0383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		116DEAF61EE8337E000C0383 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,10 +32,14 @@
 		116DEAFB1EE8337E000C0383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		116DEAFE1EE8337E000C0383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		116DEB001EE8337E000C0383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		116DEB061EE83396000C0383 /* IQuery_AddId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQuery_AddId.swift; sourceTree = "<group>"; };
-		116DEB091EE834A4000C0383 /* IQuery_AddAttr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQuery_AddAttr.swift; sourceTree = "<group>"; };
-		116DEB0B1EE83995000C0383 /* iQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQueryManager.swift; sourceTree = "<group>"; };
-		116DEB0D1EE83A35000C0383 /* iQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuery.swift; sourceTree = "<group>"; };
+		11702A541EE845840044B9C1 /* iQueryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iQueryManager.swift; sourceTree = "<group>"; };
+		11702A561EE845840044B9C1 /* IQuery_AddAttr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQuery_AddAttr.swift; sourceTree = "<group>"; };
+		11702A571EE845840044B9C1 /* IQuery_AddId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQuery_AddId.swift; sourceTree = "<group>"; };
+		11702A581EE845840044B9C1 /* iQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iQuery.swift; sourceTree = "<group>"; };
+		11D29B4D1EE84D5A00E07449 /* 登录.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "登录.swift"; sourceTree = "<group>"; };
+		11D29B4F1EE84F2900E07449 /* 注册.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "注册.swift"; sourceTree = "<group>"; };
+		11F0EC371EE884B1000059CE /* 找回密码.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "找回密码.swift"; sourceTree = "<group>"; };
+		11F0EC391EE888D0000059CE /* 找回密码控制.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "找回密码控制.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,42 +72,47 @@
 		116DEAF31EE8337E000C0383 /* iQuery */ = {
 			isa = PBXGroup;
 			children = (
-				11FF7F741EE840B500202611 /* IQuery */,
+				11702A521EE845840044B9C1 /* IQuery */,
 				116DEAF41EE8337E000C0383 /* AppDelegate.swift */,
 				116DEAFB1EE8337E000C0383 /* Assets.xcassets */,
 				116DEB001EE8337E000C0383 /* Info.plist */,
 				116DEAFD1EE8337E000C0383 /* LaunchScreen.storyboard */,
 				116DEAF81EE8337E000C0383 /* Main.storyboard */,
 				116DEAF61EE8337E000C0383 /* ViewController.swift */,
+				112FF45C1EE8672C00B1A04A /* 模拟服务器.swift */,
+				11D29B4D1EE84D5A00E07449 /* 登录.swift */,
+				11D29B4F1EE84F2900E07449 /* 注册.swift */,
+				11F0EC371EE884B1000059CE /* 找回密码.swift */,
+				11F0EC391EE888D0000059CE /* 找回密码控制.swift */,
 			);
 			path = iQuery;
 			sourceTree = "<group>";
 		};
-		11FF7F741EE840B500202611 /* IQuery */ = {
+		11702A521EE845840044B9C1 /* IQuery */ = {
 			isa = PBXGroup;
 			children = (
-				11FF7F761EE840CC00202611 /* Base */,
-				11FF7F751EE840C000202611 /* Extentions */,
-				116DEB0D1EE83A35000C0383 /* iQuery.swift */,
+				11702A531EE845840044B9C1 /* Base */,
+				11702A551EE845840044B9C1 /* Extentions */,
+				11702A581EE845840044B9C1 /* iQuery.swift */,
 			);
 			path = IQuery;
 			sourceTree = "<group>";
 		};
-		11FF7F751EE840C000202611 /* Extentions */ = {
+		11702A531EE845840044B9C1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				116DEB091EE834A4000C0383 /* IQuery_AddAttr.swift */,
-				116DEB061EE83396000C0383 /* IQuery_AddId.swift */,
-			);
-			path = Extentions;
-			sourceTree = "<group>";
-		};
-		11FF7F761EE840CC00202611 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				116DEB0B1EE83995000C0383 /* iQueryManager.swift */,
+				11702A541EE845840044B9C1 /* iQueryManager.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		11702A551EE845840044B9C1 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				11702A561EE845840044B9C1 /* IQuery_AddAttr.swift */,
+				11702A571EE845840044B9C1 /* IQuery_AddId.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,10 +186,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				116DEB081EE8341E000C0383 /* IQuery_AddId.swift in Sources */,
-				116DEB0C1EE83995000C0383 /* iQueryManager.swift in Sources */,
-				116DEB0E1EE83A35000C0383 /* iQuery.swift in Sources */,
-				116DEB0A1EE834A4000C0383 /* IQuery_AddAttr.swift in Sources */,
+				11702A5C1EE845840044B9C1 /* iQuery.swift in Sources */,
+				11D29B4E1EE84D5A00E07449 /* 登录.swift in Sources */,
+				11F0EC3A1EE888D0000059CE /* 找回密码控制.swift in Sources */,
+				11F0EC381EE884B1000059CE /* 找回密码.swift in Sources */,
+				11702A591EE845840044B9C1 /* iQueryManager.swift in Sources */,
+				112FF45D1EE8672C00B1A04A /* 模拟服务器.swift in Sources */,
+				11702A5B1EE845840044B9C1 /* IQuery_AddId.swift in Sources */,
+				11702A5A1EE845840044B9C1 /* IQuery_AddAttr.swift in Sources */,
+				11D29B501EE84F2900E07449 /* 注册.swift in Sources */,
 				116DEAF71EE8337E000C0383 /* ViewController.swift in Sources */,
 				116DEAF51EE8337E000C0383 /* AppDelegate.swift in Sources */,
 			);

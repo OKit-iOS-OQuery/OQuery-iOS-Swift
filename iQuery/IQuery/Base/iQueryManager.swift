@@ -13,8 +13,12 @@ class iQueryManager: NSObject {
   override init() {
     self.dict = NSMapTable.strongToWeakObjects()
   }
-  func getObject(_ selector:String) -> Any {
-    return self.dict.object(forKey: selector.replacingOccurrences(of: "#", with: "") as AnyObject) as Any
+  func getObject(_ selector:String) -> AnyObject? {
+    if(!selector.hasPrefix("#")){
+      return nil
+    }
+    
+    return self.dict.object(forKey: selector.replacingOccurrences(of: "#", with: "") as AnyObject) as AnyObject
   }
   
   static var sharedInstance : iQueryManager {

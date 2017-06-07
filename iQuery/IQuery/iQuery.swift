@@ -12,3 +12,6 @@ public func Q(_ selector: String) -> NSObject {
   return iQueryManager.sharedInstance.getObject(selector) as! NSObject
 }
 
+class IQueryObject: NSObject{
+  var 业务 :AnyObject?
+}

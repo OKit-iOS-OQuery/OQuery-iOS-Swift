@@ -26,7 +26,7 @@ class ViewController: UIViewController {
       print(Q("#seci").attr("backgroundColor"));
         print(Q("#seci").prop("backgroundColor"));
     
-    // Do any additional setup after loading the view, typically from a nib.
+    
   }
   
   override func didReceiveMemoryWarning() {
