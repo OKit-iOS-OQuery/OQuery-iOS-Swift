@@ -1,4 +1,4 @@
- ![image](https://github.com/APQuery/APQuery/blob/master/icons/logo.png)
+ ![image](https://github.com/APQuery/APQuery/blob/master/icon/logo.png)
  
 - [APQuery](#APQuery)
     - [安装](#安装)
