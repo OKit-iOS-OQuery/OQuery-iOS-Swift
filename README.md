@@ -30,9 +30,9 @@
 
 ## 安装
 
-Objective-C语言需要桥接swift，在这里不过多赘述
+Objective-C语言需要桥接，在这里不过多赘述
 
-Swift则直接使用
+Swift 使用 XCode 9 以上 Swift 4
 
 ## 设计前提
 
