@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 
+class 注册基类 {
+  weak var 业务 :注册?
+}
+
 class 注册: NSObject{
   var 范畴 :String! = "注册"
   lazy var 数据 :注册数据 =
@@ -49,8 +53,7 @@ class 注册: NSObject{
   
 }
 
-class 注册请求: NSObject {
-  weak var 业务 :注册?
+class 注册请求: 注册基类 {
   func 发送注册请求(_ name:String,_ password:String) {
     
     let result:String =  模拟服务器.sharedInstance.接收注册请求("注册")
@@ -62,8 +65,7 @@ class 注册请求: NSObject {
   }
 }
 
-class 注册数据: NSObject {
-  weak var 业务 :注册?
+class 注册数据: 注册基类 {
   var userName :String?
   var userPassword :String?
   override init() {
@@ -79,7 +81,7 @@ class 注册数据: NSObject {
 class 注册视图: UIView {
   weak var 业务 :注册? {
   didSet {
-    self.初始化视图标记()}
+    self.标记()}
   }
   @IBOutlet weak var 用户名输入框: UITextField!
   @IBOutlet weak var 密码输入框: UITextField!
@@ -88,7 +90,7 @@ class 注册视图: UIView {
     
     self.业务?.请求.发送注册请求(self.用户名输入框.text!,self.密码输入框.text!)
   }
-  func 初始化视图标记()  {
+  func 标记()  {
     self.用户名输入框.id = "\(self.业务!.范畴!)/用户名输入框";
     self.密码输入框.id = "\(self.业务!.范畴!)/密码输入框";
   }

@@ -21,6 +21,7 @@
 		11D29B501EE84F2900E07449 /* 注册.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D29B4F1EE84F2900E07449 /* 注册.swift */; };
 		11F0EC381EE884B1000059CE /* 找回密码.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0EC371EE884B1000059CE /* 找回密码.swift */; };
 		11F0EC3A1EE888D0000059CE /* 找回密码控制.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0EC391EE888D0000059CE /* 找回密码控制.swift */; };
+		11F0EC3C1EE89171000059CE /* 修改密码.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0EC3B1EE89171000059CE /* 修改密码.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		11D29B4F1EE84F2900E07449 /* 注册.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "注册.swift"; sourceTree = "<group>"; };
 		11F0EC371EE884B1000059CE /* 找回密码.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "找回密码.swift"; sourceTree = "<group>"; };
 		11F0EC391EE888D0000059CE /* 找回密码控制.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "找回密码控制.swift"; sourceTree = "<group>"; };
+		11F0EC3B1EE89171000059CE /* 修改密码.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "修改密码.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				11D29B4F1EE84F2900E07449 /* 注册.swift */,
 				11F0EC371EE884B1000059CE /* 找回密码.swift */,
 				11F0EC391EE888D0000059CE /* 找回密码控制.swift */,
+				11F0EC3B1EE89171000059CE /* 修改密码.swift */,
 			);
 			path = iQuery;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				11702A591EE845840044B9C1 /* iQueryManager.swift in Sources */,
 				112FF45D1EE8672C00B1A04A /* 模拟服务器.swift in Sources */,
 				11702A5B1EE845840044B9C1 /* IQuery_AddId.swift in Sources */,
+				11F0EC3C1EE89171000059CE /* 修改密码.swift in Sources */,
 				11702A5A1EE845840044B9C1 /* IQuery_AddAttr.swift in Sources */,
 				11D29B501EE84F2900E07449 /* 注册.swift in Sources */,
 				116DEAF71EE8337E000C0383 /* ViewController.swift in Sources */,
